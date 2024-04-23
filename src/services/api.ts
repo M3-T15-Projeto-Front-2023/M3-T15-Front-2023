@@ -7,7 +7,7 @@ import axios from 'axios';
 // });
 
 export const apiFake = axios.create({
-  baseURL: 'https://kenziedex.onrender.com/',
+  baseURL: 'http://51.81.9.89:6002/',
   responseType: 'json',
   timeout: 10000,
 });
