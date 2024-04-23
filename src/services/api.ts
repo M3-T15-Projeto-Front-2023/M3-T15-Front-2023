@@ -5,7 +5,7 @@ import axios from 'axios';
 //   responseType: 'json',
 //   timeout: 5000,
 // });
-
+//
 export const apiFake = axios.create({
   baseURL: 'http://51.81.9.89:6002/',
   responseType: 'json',
